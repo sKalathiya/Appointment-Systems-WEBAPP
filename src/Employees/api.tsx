@@ -1,6 +1,6 @@
 import { IEmployeePost, Shift } from "../HELPERS/types";
 
-const localPath = "http://localhost:8080/";
+const localPath = "http://3.133.161.95:8080/";
 
 export async function getEmployees() {
     const response = await fetch(localPath + "worker", {

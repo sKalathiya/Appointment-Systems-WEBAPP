@@ -1,4 +1,4 @@
-const localPath = "http://localhost:8080/";
+const localPath = "http://3.133.161.95:8080/";
 
 export async function authUser(password: string) {
     const response = await fetch(localPath + "login", {
