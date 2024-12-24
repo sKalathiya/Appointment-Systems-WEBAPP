@@ -1,0 +1,3 @@
+When services or workers details are updates, update the appointments as well.
+
+When services or worker are deleted, update the appointments as well.
